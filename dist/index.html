@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipedia</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-qn0W9cdG5Q6U2/6uKZV+rWPHIvC7Vc+sJ6PLhQ2U2vXvXjjKuxEhBq3wOwWfmJvD" crossorigin="anonymous">
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" type="image" href="../img/Recipedia-Logo-Png.png">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    
+    <!--NPM RUN DEV EVERYTIME-->
+</head>
+
+<body class="bg-offWhite">
+    <header class="bg-white">
+        <nav class="flex flex-row justify-between items-center">
+            <div class="md:w-auto">
+                <h1 class="text-xxl font-[Cookie] ml-4 mb-1 mt-2 text-text-PineGreen">Recipedia</h1>
+            </div>
+
+            <div class="w-full md:w-auto mb-3 flex items-center justify-end">
+                <div class="flex items-center">
+                    <button>
+                        <ion-icon name="menu-outline" class="text-4xl cursor-pointer md:hidden mr-4 mt-5 w-9 h-9"></ion-icon>
+                    </button>
+                </div>
+                <ul class="flex flex-col md:flex-row items-center justify-between md:gap-x-4 mr-10 mt-5">
+                    <li>
+                        <a class="font-[Poppins] font-bold text-lg hidden md:block text-text-PineGreen  hover:text-black" href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <a class="font-[Poppins] font-bold text-lg hidden md:block text-text-PineGreen hover:text-black" href="About.html">About</a>
+                    </li>
+
+                    <li>
+                        <a class="font-[Poppins] font-bold text-lg hidden md:block text-text-PineGreen hover:text-black" href="#">Contacts</a>
+                    </li>
+                </ul>      
+            </div>
+        </nav>
+    </header>
+
+    <div class="relative">
+        <div class="absolute top-0 right-0 md:w-1/2 lg:w-1/2 h-full bg-PineGreen left-0">
+          <h1 class="leading-loose md:text-xxxl font-[Quicksand] ml-10 md:ml-20 text-white mt-10 md:mt-32 text-xxl font-semibold md:py-10">Recipes for <br> Everyone</h1>
+          <br>
+          <p class=" text-white font-[Quicksand] ml-10 md:ml-20 text-base md:text-md lg:text-xl">Welcome to <span class="font-extrabold">Recipedia</span>, where you can <br> find a wide range of delicious and <br> easy-to-make recipes for every occasion!</p>
+        </div>
+        <img class="w-screen h--small" src="../img/Header-Background-1.jpg" alt="Image">
+      </div>
+    </div>
+        
+    <div class="bg-offWhite flex relative w-96 justify-center items-center left-1/2 transform -translate-x-1/2 mt-20">
+        <h1 class="lg:text-xxxl font-[Quicksand] underline my-10 text-text-PineGreen text-xxl">Recipes</h1>
+      </div>
+
+      <a href="Omu-Rice.html" target="_blank">
+        <div class="flex min-h-screen items-center justify-center bg-offWhite">
+          <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl ">
+              <div class="h-medium w-small">
+                <img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125" src="../img/Omu-Rice.jpg" alt="" />
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent  group-hover:via-teal-500/60 group-hover:to-teal-500/70"></div>
+              <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center duration-500 group-hover:translate-y-6">
+                <h1 class="text-xxl text-white font-[Quicksand]">Omu Rice</h1>
+              </div>
+            </div>
+          </a>
+          <a href="Kim-Chi-Fried-Rice.html" target="_blank">
+            <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl ">
+              <div class="h-medium w-small">
+                <img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125" src="../img/Kim-Chi-Fried-Rice.jpg" alt="" />
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent  group-hover:via-teal-500/60 group-hover:to-teal-500/70"></div>
+              <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center duration-500 group-hover:translate-y-6">
+                <h1 class="text-xxl text-white font-[Quicksand]">Kim Chi Fried Rice</h1>
+              </div>
+            </div>
+          </a>
+
+          <a href="Shepherds-Pie.html" target="_blank">
+            <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl ">
+              <div class="h-medium w-small">
+                <img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125" src="../img/Shepherds-Pie-.jpg" alt="" />
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent  group-hover:via-teal-500/60 group-hover:to-teal-500/70"></div>
+              <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center duration-500 group-hover:translate-y-6">
+                <h1 class="text-xxl text-white font-[Quicksand]">Shepherd's Pie</h1>
+              </div>
+            </div>
+          </a>
+
+          <a href="Siomai.html" target="_blank">
+            <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl ">
+              <div class="h-medium w-small">
+                <img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125" src="../img/Siomai.jpg" alt="" />
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent  group-hover:via-teal-500/60 group-hover:to-teal-500/70"></div>
+              <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center duration-500 group-hover:translate-y-6">
+                <h1 class="text-xxl text-white font-[Quicksand]">Siomai</h1>
+              </div>
+            </div>
+          </a>
+
+          <a href="Chicken-Inasal.html" target="_blank">
+            <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl ">
+              <div class="h-medium w-small">
+                <img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125" src="../img/Chicken-Inasal.jpg" alt="" />
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent  group-hover:via-teal-500/60 group-hover:to-teal-500/70"></div>
+              <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center duration-500 group-hover:translate-y-6">
+                <h1 class="text-xxl text-white font-[Quicksand]">Chicken Inasal</h1>
+              </div>
+            </div>
+          </a>
+
+          <a href="About.html" target="_blank">
+            <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl ">
+              <div class="h-medium w-small">
+                <img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125" src="../img/Arroz-Caldo.jpg" alt="" />
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent  group-hover:via-teal-500/60 group-hover:to-teal-500/70"></div>
+              <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center duration-500 group-hover:translate-y-6">
+                <h1 class="text-xxl text-white font-[Quicksand]">Aroz Caldo</h1>
+              </div>
+            </div>
+          </a>
+          
+        </div>
+      </div> 
+    </div>
+    
+    <footer>
+      <div class="p-5 mt-20 bg-PineGreen text-white font-[Quicksand]">
+        <div class="max-w-7xl mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <div class="mb-3">
+              <h1 class="text-xxl my-5">About Recipedia</h1>
+              <p class="text-lg my-5"><span class="font-extrabold">Recipedia</span> is a your go-to source for all things <br> cooking! Our website is designed to 
+                 help extend knowledge about cooking and provide valuable <br> resources for those who wish to 
+                 learn more about the culinary arts.
+              </p>
+            </div>
+
+            <div class="hidden md:block">
+              <div class="flex justify-center">
+                <div class="mb-3">
+                  <h1 class="flex text-xxl items-center justify-center my-5">Contacts</h1>
+                  <div class="grid items-center justify-center">
+                      <span class="underline my-5">qlysander27@gmail.com</span>
+                      <span class="underline my-5">+639954215744</span>
+                  </div>
+                  <div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="hidden md:block lg:block">
+              <div class="flex justify-center">
+                <div>
+                  <h1 class="flex text-xxl items-center justify-center my-5">Socials</h1>
+                  <div class="flex items-center justify-center my-3">
+                    <a href="https://www.facebook.com/Lysq27/" target="_blank"><ion-icon class="w-7 h-12 text-4xl mx-2" name="logo-facebook"></ion-icon></a>
+                    <a href="https://twitter.com/" target="_blank"><ion-icon class="w-7 h-12 text-4xl mx-2" name="logo-twitter"></ion-icon></a>
+                    <a href="https://www.instagram.com/" target="_blank"><ion-icon class="w-7 h-12 text-4xl mx-2" name="logo-instagram"></ion-icon></a>
+                    <a href="https://github.com/RendoksenShinuzaki" target="_blank"><ion-icon class="w-7 h-12 text-4x1 mx-2" name="logo-github"></ion-icon></a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html> 
